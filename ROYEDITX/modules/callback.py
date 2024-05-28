@@ -29,7 +29,7 @@ async def cb_handler(_, query: CallbackQuery):
             text=f"""❖ ʜᴇʏ ʙᴀʙʏ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ♥︎\n\n⬤ ɪ ᴀᴍ {BOT_NAME}, ᴀɪ ʙᴀsᴇ ᴄʜᴀᴛʙᴏᴛ.\n⬤ ɪ ᴄᴀɴ ʜᴇʟᴘ ʏᴏᴜ ғᴏʀ ᴀᴄᴛɪᴠᴇ ʏᴏᴜʀ ɢʀᴏᴜᴘ.\n\n❖ ᴛᴀᴘ ᴏɴ ʜᴇʟᴘ ʙᴜᴛᴛᴏɴ ᴛᴏ sᴇᴇ ᴀʟʟ ᴍʏ ᴄᴏᴍᴍᴀɴᴅs.""",
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
-    elif query.data == "SOURCE":
+    elif query.data == "gib_source":
         await CallbackQuery.edit_message_media(
         InputMediaVideo("https://te.legra.ph/file/3fcea5c53fd10c831470a.mp4"),
         reply_markup=InlineKeyboardMarkup(
