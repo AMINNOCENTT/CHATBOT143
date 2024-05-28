@@ -30,11 +30,11 @@ async def cb_handler(_, query: CallbackQuery):
             reply_markup=InlineKeyboardMarkup(DEV_OP),
         )
     elif query.data == "SOURCE":
-        await query.message.edit(
-            text=f"""❖ ʜᴇʏ ʙᴀʙʏ, ɴɪᴄᴇ ᴛᴏ ᴍᴇᴇᴛ ʏᴏᴜ ♥︎\n\n⬤ ɪ ᴀᴍ {BOT_NAME},  ᴀɪ ʙᴀsᴇ ᴄʜᴀᴛʙᴏᴛ.\n\n❖ ɪғ ʏᴏᴜ ᴡᴀɴᴛ {BOT_NAME} ʙᴏᴛ ʀᴇᴘᴏ, ᴛʜᴇɴ ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ ʀᴇᴘᴏ ʙᴜᴛᴛᴏɴ ᴛᴏ ɢᴇᴛ ᴍʏ sᴏᴜʀᴄᴇ ᴄᴏᴅᴇ.""",
-            reply_markup=InlineKeyboardMarkup(CLOSE_BTN),
-            disable_web_page_preview=True,
-        )
+        await CallbackQuery.edit_message_media(
+        InputMediaVideo("https://te.legra.ph/file/3fcea5c53fd10c831470a.mp4"),
+        reply_markup=InlineKeyboardMarkup(
+            [[InlineKeyboardButton(text="✭ʙᴀᴄᴋ✭", callback_data=f"settingsback_helper")]]
+        ),
     elif query.data == "BACK_HELP":
         await query.message.edit(
             text=f"""❖ ʜᴇʀᴇ ɪꜱ ᴛʜᴇ ʜᴇʟᴘ sᴇᴄᴛɪᴏɴ ꜰᴏʀ {BOT_NAME}\n\n⬤ /ping ➥ ᴄʜᴇᴄᴋ ʙᴏᴛ ᴀʟɪᴠᴇ ᴏʀ ɴᴏᴛ.\n⬤ /stats ➥ ᴄʜᴇᴄᴋ ᴍʏ ᴄʜᴀᴛs sᴛᴀᴛs.\n⬤ /chatbot ➥ ᴇɴᴀʙʟᴇ/ᴅɪsᴀʙʟᴇ [ᴡᴏʀᴋ ᴏɴʟʏ ɢʀᴏᴜᴘ]\n\n❖ ᴀʟʟ ᴄᴏᴍᴍᴀɴᴅs ᴄᴀɴ ʙᴇ ᴜsᴇᴅ ᴡɪᴛʜ ➥ /""",
