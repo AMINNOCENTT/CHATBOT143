@@ -58,18 +58,18 @@ STICKER = [
 #### ❖ ──────⊱◈◈◈⊰────── ❖
 
 IMG = [
-"https://graph.org/file/eaa3a2602e43844a488a5.jpg",
-"https://graph.org/file/b129e98b6e5c4db81c15f.jpg",
-"https://graph.org/file/3ccb86d7d62e8ee0a2e8b.jpg",
-"https://graph.org/file/df11d8257613418142063.jpg",
-"https://graph.org/file/9e23720fedc47259b6195.jpg",
-"https://graph.org/file/826485f2d7db6f09db8ed.jpg",
-"https://graph.org/file/ff3ad786da825b5205691.jpg",
-"https://graph.org/file/52713c9fe9253ae668f13.jpg",
-"https://graph.org/file/8f8516c86677a8c91bfb1.jpg",
-"https://graph.org/file/6603c3740378d3f7187da.jpg",
-"https://graph.org/file/66cb6ec40eea5c4670118.jpg",
-"https://graph.org/file/2e3cf4327b169b981055e.jpg",
+"https://telegra.ph/file/9fea7d7c2e1d554cac8e4.jpg",
+"https://telegra.ph/file/a5de9db57a5a8bca54984.jpg",
+"https://telegra.ph/file/d89738c766ffe88a840c0.jpg",
+"https://telegra.ph/file/1d97736073a118662b6ff.jpg",
+"https://telegra.ph/file/cb35a975103447a6227de.jpg",
+"https://telegra.ph/file/67413733ccf4c938c49e3.jpg",
+"https://telegra.ph/file/95e99edbb29b98527326a.jpg",
+"https://telegra.ph/file/ff5652a7b94b13d99d392.jpg",
+"https://telegra.ph/file/e9cc48669863c2dcbe116.jpg",
+"https://telegra.ph/file/3b730f219a24b9a26dd25.jpg",
+"https://telegra.ph/file/04b4e423ef1e3df6bd5f6.jpg",
+"https://telegra.ph/file/65231291e6c6e148a1e75.jpg",
 ]
 
 #### ❖ ──────⊱◈◈◈⊰────── ❖
